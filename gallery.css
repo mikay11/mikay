@@ -1,0 +1,126 @@
+body {
+   
+   
+    background-color:  rgb(12, 12, 12);
+    }
+
+
+    .navbar ul{
+        display: inline-block;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    
+    
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-size: 1vw;
+        text-align: center;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+       margin-left: 2vw;
+       font-size: 1vw;
+    
+    }
+    
+    .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .nav2
+    {
+        display: flex;
+    align-items: center;
+        justify-content: space-between;
+    }
+    .ABOUT {
+    
+     
+       color: white;
+      margin-right: 63vw;
+       font-size: 1.8vw;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+
+.img1 {
+    background-image: center;
+    height: 30vw;
+    width: 91vw;
+    border-style: solid;
+    border-radius: 2vw;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-color: antiquewhite;
+}
+.img2 {
+    background-position: left;
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: white;
+    margin-left: 30px;
+}
+.img :hover {
+    box-shadow: 1px 1px 16px 1px rgb(215, 6, 6);
+    scale: 10;
+    transition: 5s;
+    cursor: pointer;
+}
+
+.img3 {
+    background-position: center;
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 2vw;
+    margin-top: 20px;
+    border-color: white;
+}
+.img4 {
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: white;
+}
+.img5 {
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: white;
+}
+.img6 {
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: white;
+}
+.img7 {
+    height: 20vw;
+    width: 29vw;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: white;
+}
+.gallery {
+    color: white;
+   margin-left: 20px;
+   font-size: 25px;
+   }
+  

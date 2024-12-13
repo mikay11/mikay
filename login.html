@@ -1,0 +1,54 @@
+<!DOCTYPE.html>
+<html>
+    <title>Log-in Page</title>
+
+    <head>
+      <link rel="stylesheet" href="intro.css">        
+
+    <script>
+      function Login()
+      {
+        var username = document.getElementById("user").value;
+        var password = document.getElementById("pass").value;
+        if(username=="Michaeladeniseong"&& password=="maxcaleb")
+      {
+        window.location.href="HOME.HTML";
+      }
+      else
+      {
+        alert("Incorrect Username or Password\n\nPlease try again.");
+      }
+      }
+
+      function showpass(checkbox)
+    { 
+      var username = document.getElementById("user");
+      var password = document.getElementById("pass");
+      if(checkbox.checked==true)
+    {
+      password.setAttribute("type","text");
+    }
+    else {
+      password.setAttribute("type","password");
+    }
+  }
+    </script>
+   
+      <body> 
+            <div class="log"><center>
+              <h1 class="login">LOGIN</h1>
+                <input class="inputuser" id="user" type="text" placeholder="Username"><br>
+                <input class="inputuser" id="pass" type="password" placeholder="Password"><br>
+                <input type="checkbox" onclick="showpass(this)"> show password<br>
+                <button class="btn" onclick="Login()">LOGIN</button>
+            </div></center>
+
+
+            
+  
+    </body>
+            
+    </head>
+   
+  
+</html>
